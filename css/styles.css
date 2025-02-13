@@ -180,6 +180,7 @@ a {
     align-items: center;   
 }
 
+/* Buttons */
 .btn {
     font-size: 1.8rem;
     font-weight: 600;
@@ -242,5 +243,26 @@ a {
 @media screen and (min-width: 1024px) {
     .btn {
         font-size: 1.5rem;
+    }
+}
+
+/* Input */
+
+.input {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    color: var(--color-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+    color: #cdcbc7;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.rem;
     }
 }
