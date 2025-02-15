@@ -512,7 +512,7 @@ a {
 .testimonial {
     border-radius: 10px;
     box-shadow: 10px 10px 20px 20px var(--color-border);
-    margin: 10rem;
+    margin: 7rem;
     padding: 5rem;
     /* max-width: 1140px; */
 }
@@ -632,6 +632,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
